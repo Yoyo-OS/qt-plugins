@@ -1,7 +1,7 @@
-Source: cutefish-qt-plugins
+Source: yoyo-qt-plugins
 Section: devel
 Priority: optional
-Maintainer: CutefishOS <support@cutefishos.com>
+Maintainer: YoyoOS <support@yoyoos.com>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -20,10 +20,10 @@ Build-Depends: cmake,
                qttools5-dev,
                qttools5-dev-tools
 Standards-Version: 4.5.0
-Homepage: https://cutefishos.com
+Homepage: https://yoyoos.com
 
-Package: cutefish-qt-plugins
+Package: yoyo-qt-plugins
 Architecture: any
 Depends: ${misc:Depends},
          ${shlibs:Depends}
-Description: CutefishOS Qt Plugins
+Description: YoyoOS Qt Plugins

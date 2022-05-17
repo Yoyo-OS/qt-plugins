@@ -29,7 +29,7 @@ static const QByteArray s_darkIconName = QByteArrayLiteral("Crule-dark");
 
 HintsSettings::HintsSettings(QObject *parent)
     : QObject(parent),
-      m_settings(new QSettings(QSettings::UserScope, "cutefishos", "theme"))
+      m_settings(new QSettings(QSettings::UserScope, "yoyoos", "theme"))
 {
     m_iconTheme = m_settings->value("IconTheme", "Crule").toString();
 
@@ -39,7 +39,7 @@ HintsSettings::HintsSettings(QObject *parent)
         m_hints[QPlatformTheme::SystemIconThemeName] = m_iconTheme;
 
     m_hints[QPlatformTheme::SystemIconFallbackThemeName] = s_lightIconName;
-    m_hints[QPlatformTheme::StyleNames] = "cutefish";
+    m_hints[QPlatformTheme::StyleNames] = "yoyo";
     m_hints[QPlatformTheme::SystemIconFallbackThemeName] = QStringLiteral("hicolor");
     m_hints[QPlatformTheme::IconThemeSearchPaths] = xdgIconThemePaths();
     m_hints[QPlatformTheme::UseFullScreenForPopupMenu] = false;

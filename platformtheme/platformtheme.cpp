@@ -50,7 +50,7 @@ void onDarkModeChanged()
         return;
     }
 
-    QStyle *style = QStyleFactory::create("cutefish");
+    QStyle *style = QStyleFactory::create("yoyo");
     if (style) {
         qApp->setStyle(style);
     }

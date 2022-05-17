@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
-project(cutefishstyle)
+project(yoyostyle)
 
-set(TARGET cutefishstyle)
+set(TARGET yoyostyle)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)

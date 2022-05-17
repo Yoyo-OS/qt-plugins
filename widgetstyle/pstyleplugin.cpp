@@ -7,12 +7,12 @@
 
 QStringList ProxyStylePlugin::keys() const
 {
-    return {"cutefish"};
+    return {"yoyo"};
 }
 
 QStyle *ProxyStylePlugin::create(const QString &key)
 {
-    if (key != QStringLiteral("cutefish")) {
+    if (key != QStringLiteral("yoyo")) {
         return nullptr;
     }
 

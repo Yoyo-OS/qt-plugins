@@ -6,7 +6,7 @@
 class ProxyStylePlugin : public QStylePlugin
 {
     Q_OBJECT
-    Q_PLUGIN_METADATA(IID "org.qt-project.Qt.QStyleFactoryInterface" FILE "cutefishstyle.json")
+    Q_PLUGIN_METADATA(IID "org.qt-project.Qt.QStyleFactoryInterface" FILE "yoyostyle.json")
 
 public:
     ProxyStylePlugin() = default;

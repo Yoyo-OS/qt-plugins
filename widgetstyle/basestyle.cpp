@@ -4524,7 +4524,7 @@ void BaseStyle::unpolish(QWidget *widget)
 
 bool BaseStyle::isDarkMode() const
 {
-    QSettings settings(QSettings::UserScope, "cutefishos", "theme");
+    QSettings settings(QSettings::UserScope, "yoyoos", "theme");
     return settings.value("DarkMode", false).toBool();
 }
 

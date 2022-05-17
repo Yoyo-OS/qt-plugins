@@ -1,6 +1,6 @@
 # Qt Plugins
 
-Unify Qt application style of CutefishOS.
+Unify Qt application style of YoyoOS.
 
 ## Dependencies
 
@@ -18,4 +18,4 @@ sudo make install
 
 ## License
 
-cutefish-qt-plugins is licensed under GPLv3.
+yoyo-qt-plugins is licensed under GPLv3.

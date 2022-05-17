@@ -50,15 +50,15 @@ qt5_add_dbus_adaptor(SRCS
     StatusNotifierItem
 )
 
-add_library(cutefishplatformtheme MODULE ${SRCS})
+add_library(yoyoplatformtheme MODULE ${SRCS})
 
-target_compile_definitions(cutefishplatformtheme
+target_compile_definitions(yoyoplatformtheme
     PRIVATE
         "QT_NO_FOREACH"
         "LIB_FM_QT_SONAME=\"${LIB_FM_QT_SONAME}\""
 )
 
-target_link_libraries(cutefishplatformtheme PRIVATE
+target_link_libraries(yoyoplatformtheme PRIVATE
     Qt5::GuiPrivate
     Qt5::X11Extras
     Qt5::Widgets
@@ -90,4 +90,4 @@ else()
     message(FATAL_ERROR "Qt5 plugin directory cannot be detected.")
 endif()
 
-install(TARGETS cutefishplatformtheme LIBRARY DESTINATION "${QT_PLUGINS_DIR}/platformthemes")
+install(TARGETS yoyoplatformtheme LIBRARY DESTINATION "${QT_PLUGINS_DIR}/platformthemes")
