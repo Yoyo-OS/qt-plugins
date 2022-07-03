@@ -1,5 +1,7 @@
 # Qt Plugins
 
+[![Build](https://github.com/Yoyo-OS/qt-plugins/actions/workflows/build.yml/badge.svg)](https://github.com/Yoyo-OS/qt-plugins/actions/workflows/build.yml)
+
 Unify Qt application style of YoyoOS.
 
 ## Dependencies
